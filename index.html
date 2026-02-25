@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Delhi Weather</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Delhi Weather Data</h1>
+
+<div class="card">
+  <h2>Search by Date</h2>
+  <input type="date" id="dateInput">
+  <button onclick="getByDate()">Search</button>
+  <p id="dateResult"></p>
+</div>
+
+<div class="card">
+  <h2>Yearly Status</h2>
+  <input type="number" id="yearInput" placeholder="Enter year">
+  <button onclick="getStats()">Get Stats</button>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Month</th>
+        <th>Max</th>
+        <th>Min</th>
+        <th>Median</th>
+      </tr>
+    </thead>
+    <tbody id="tableBody"></tbody>
+  </table>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

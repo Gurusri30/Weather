@@ -1,0 +1,129 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    min-height: 100vh;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 40px;
+    font-size: 32px;
+    letter-spacing: 1px;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    padding: 25px;
+    margin: 25px auto;
+    width: 75%;
+    border-radius: 15px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+}
+
+h2 {
+    color: #1e3c72;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+input, select {
+    padding: 10px 14px;
+    margin: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+input:focus, select:focus {
+    border-color: #2a5298;
+    box-shadow: 0 0 8px rgba(42,82,152,0.3);
+}
+
+button {
+    padding: 10px 18px;
+    background: linear-gradient(45deg, #1e3c72, #2a5298);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.05);
+    background: linear-gradient(45deg, #2a5298, #1e3c72);
+}
+
+#dateResult, #monthResult {
+    margin-top: 15px;
+    padding: 12px;
+    background: #f3f6fb;
+    border-radius: 8px;
+    font-weight: 500;
+    line-height: 1.6;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th {
+    background: linear-gradient(45deg, #1e3c72, #2a5298);
+    color: white;
+    padding: 12px;
+    font-weight: bold;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    background: #ffffff;
+}
+
+tr:nth-child(even) td {
+    background: #f2f5fb;
+}
+
+tr:hover td {
+    background: #dbe5ff;
+    transition: 0.3s;
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 95%;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    input, select, button {
+        width: 90%;
+        margin: 8px auto;
+        display: block;
+    }
+}

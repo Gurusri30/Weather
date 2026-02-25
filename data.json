@@ -1,0 +1,37 @@
+[
+  {"date":"2020-01-01","month":"January","year":2020,"temp":18,"humidity":60},
+  {"date":"2020-01-02","month":"January","year":2020,"temp":20,"humidity":55},
+  {"date":"2020-01-03","month":"January","year":2020,"temp":19,"humidity":58},
+
+  {"date":"2020-02-01","month":"February","year":2020,"temp":22,"humidity":50},
+  {"date":"2020-02-02","month":"February","year":2020,"temp":24,"humidity":48},
+  {"date":"2020-02-03","month":"February","year":2020,"temp":23,"humidity":52},
+
+  {"date":"2020-03-01","month":"March","year":2020,"temp":28,"humidity":45},
+  {"date":"2020-03-02","month":"March","year":2020,"temp":30,"humidity":40},
+  {"date":"2020-03-03","month":"March","year":2020,"temp":29,"humidity":42},
+
+  {"date":"2021-01-01","month":"January","year":2021,"temp":17,"humidity":65},
+  {"date":"2021-01-02","month":"January","year":2021,"temp":19,"humidity":60},
+  {"date":"2021-01-03","month":"January","year":2021,"temp":18,"humidity":62},
+
+  {"date":"2021-02-01","month":"February","year":2021,"temp":23,"humidity":50},
+  {"date":"2021-02-02","month":"February","year":2021,"temp":25,"humidity":48},
+  {"date":"2021-02-03","month":"February","year":2021,"temp":24,"humidity":47},
+
+  {"date":"2021-03-01","month":"March","year":2021,"temp":31,"humidity":40},
+  {"date":"2021-03-02","month":"March","year":2021,"temp":32,"humidity":38},
+  {"date":"2021-03-03","month":"March","year":2021,"temp":30,"humidity":42},
+
+  {"date":"2022-01-01","month":"January","year":2022,"temp":16,"humidity":70},
+  {"date":"2022-01-02","month":"January","year":2022,"temp":18,"humidity":65},
+  {"date":"2022-01-03","month":"January","year":2022,"temp":17,"humidity":68},
+
+  {"date":"2022-02-01","month":"February","year":2022,"temp":26,"humidity":45},
+  {"date":"2022-02-02","month":"February","year":2022,"temp":27,"humidity":44},
+  {"date":"2022-02-03","month":"February","year":2022,"temp":25,"humidity":46},
+
+  {"date":"2022-03-01","month":"March","year":2022,"temp":33,"humidity":35},
+  {"date":"2022-03-02","month":"March","year":2022,"temp":34,"humidity":34},
+  {"date":"2022-03-03","month":"March","year":2022,"temp":32,"humidity":36}
+]
